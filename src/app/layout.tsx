@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { Syne, Manrope } from "next/font/google";
+import { Bebas_Neue, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
-const heading = Syne({
+const heading = Bebas_Neue({
   subsets: ["latin"],
   variable: "--font-heading",
   display: "swap",
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400"],
 });
 
-const body = Manrope({
+const body = Nunito_Sans({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
-  weight: ["400", "500", "600"],
+  weight: ["400", "600", "700"],
 });
 
 export const metadata: Metadata = {
